@@ -5,7 +5,7 @@ const crypto = require('crypto');
 
 const api_key = process.env.STREAM_API_KEY;
 const api_secret = process.env.STREAM_API_SECRET;
-const api_id = process.env.STREAM_API_ID;
+const api_id = process.env.STREAM_APP_ID;
 
 const signup = async (req, res) => {
     try {
